@@ -24,7 +24,7 @@ console.log(req.user);
 export const getpost = async (req, res, next) =>{
     try {
         const startIndex = parseInt(req.query.startIndex) || 0;
-        const limit = parseInt(req.query.limit) || 6;
+        const limit = parseInt(req.query.limit) || 5;
         const sortDirection = req.query.order === 'asc' ? 1 : -1;
         
         const post = await Post.find({
