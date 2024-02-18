@@ -76,6 +76,7 @@ export default function CreatePost() {
       setPublishError('Something went wrong')
     }
   }
+  
   return (
     <div className=" p-3 max-w-3xl mx-auto min-h-screen">
       <h1 className='text-center text-3xl my-7 font-semibold'>Create Post</h1>
@@ -86,12 +87,14 @@ export default function CreatePost() {
         onChange={(e) =>
           setFormData({...formData, category: e.target.value})
         }
+        
         >
+          
           <option value='uncategorized'>Select a category</option>
-          <option value='comedia'>Drama</option>
+          <option value='drama'>Drama</option>
           <option value='cienciaficcion'>Ciencia Ficción</option>
           <option value='juvenil'>Juvenil</option>
-          <option value='juvenil'>Manga</option>
+          <option value='manga'>Manga</option>
         </Select>
         </div>
         <div className=" flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3">

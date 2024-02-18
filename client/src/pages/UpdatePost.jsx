@@ -117,10 +117,10 @@ useEffect(() => {
         value={formData.category}
         >
           <option value='uncategorized'>Select a category</option>
-          <option value='comedia'>Drama</option>
+          <option value='drama'>Drama</option>
           <option value='cienciaficcion'>Ciencia Ficción</option>
           <option value='juvenil'>Juvenil</option>
-          <option value='juvenil'>Manga</option>
+          <option value='manga'>Manga</option>
         </Select>
         </div>
         <div className=" flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3">
