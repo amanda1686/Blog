@@ -122,6 +122,6 @@ export const getUser = async (req, res, next) => {
         const {password, ...rest} = user._doc;
         res.status(200).json(rest);
     } catch (error) {
-        return res.status(500).json({ error: error.message });
+        // return res.status(500).json({ error: error.message });
     }
 };
