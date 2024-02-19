@@ -5,7 +5,7 @@ import { IoBookSharp } from "react-icons/io5";
 import { useSelector } from 'react-redux';
 
 
-export default function Comment({ comment, onLike, onEdit }) {
+export default function Comment({ comment, onLike, onEdit, onDelete }) {
   const [user, setUser] = useState({});
   const [isEditing, setIsEditing] = useState(false);
   const [editedContent, setEditedContent] = useState(comment.content);
@@ -116,6 +116,7 @@ const handleSave = async () =>{
           </p>
               {
                 currentUser && (currentUser._id === comment.userId || currentUser.isAdmin) && (
+                  <>
                   <button 
                   type='button' 
                   className='text-gray-400 hover:text-purple-500'
@@ -123,6 +124,15 @@ const handleSave = async () =>{
                   >
                     Edit
                   </button>
+                  <button 
+                  type='button' 
+                  className='text-gray-400 hover:text-red-500'
+                  onClick={() => onDelete (comment._id)}
+                  >
+                    Delete
+                  </button>
+                  </>
+
                 )
               }
             </div>
