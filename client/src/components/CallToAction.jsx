@@ -1,5 +1,5 @@
 import { Button } from 'flowbite-react'
-import books from '/public/img/books.jpg'
+import books from '/public/img/books.png'
 
 export default function CallToAction() {
   return (
