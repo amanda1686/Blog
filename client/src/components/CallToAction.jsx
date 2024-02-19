@@ -12,7 +12,7 @@ export default function CallToAction() {
           Checkout this recomendatios in our newsletter
         </p>
         <Button gradientDuoTone='purpleToPink' className='rounded-tl-xl rounded-bl-none'>
-          <a href="#" target='_blank' rel='noopener noreferrer'>Learn More</a>
+          <a href="/proyects" target='_blank' rel='noopener noreferrer'>Learn More</a>
         </Button>
       </div>
       <div className="w-full sm:w-[400px] p-7 flex-1">
