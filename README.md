@@ -6,7 +6,8 @@ Welcome to A Book! 📚✨
 
 A Book is a website dedicated to book lovers who are always on the lookout for their next great read. Not only do we offer personalized book recommendations based on your preferences, but we also provide insightful blog posts on various literary topics.
 
-![Untitled](ABOOKS%201adcba963eab4d34aacbb4dc1aab6dd1/Untitled.png)
+![image](https://github.com/amanda1686/Blog/assets/80174591/477b6e37-3f27-4ab0-9e84-db6c961d6057)
+
 
 ## Features
 
