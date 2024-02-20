@@ -16,7 +16,8 @@ A Book is a website dedicated to book lovers who are always on the lookout for t
 - **Search Functionality**: Easily search for books, authors, or blog posts using our intuitive search feature.
 - **Responsive Design**: Enjoy a seamless experience across all devices, whether you're browsing on your desktop, tablet, or smartphone.
 
-![Untitled](ABOOKS%201adcba963eab4d34aacbb4dc1aab6dd1/Untitled%201.png)
+![image](https://github.com/amanda1686/Blog/assets/80174591/13c6e359-2d30-4e99-a21c-09fe5cc0751b)
+
 
 ## Technologies Used
 
