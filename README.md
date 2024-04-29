@@ -39,8 +39,14 @@ Update `.env` file with your configuration settings.
 5. Run the application: npm start
 6. Visit [https://abooks.onrender.com/](https://abooks.onrender.com/) in your web browser to access A Books.
 
+## CiberSecurity
+I have also carried out a cybersecurity analysis of the website to analyze possible vulnerabilities.
+Viit (https://github.com/amanda1686/Auditoria/blob/main/README.md)
+
 ## Contributing
 
-We welcome contributions from the community! Whether you're interested in fixing bugs, adding new features, or improving documentation, your help is greatly appreciated. .
+We welcome contributions from the community! Whether you're interested in fixing bugs, adding new features, or improving documentation, your help is greatly appreciated.
+
+
 
 # Happy reading! 📖
